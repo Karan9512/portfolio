@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Globe from 'react-globe.gl';
 
 import Button from '../components/Button.jsx';
+import {Link} from "react-router-dom";
 
 const About = () => {
     const [hasCopied, setHasCopied] = useState(false);
@@ -15,18 +16,12 @@ const About = () => {
         }, 2000);
     };
 
-    const scrollToContact = () => {
-        const contactSection = document.getElementById('contact');
-        if (contactSection) {
-            contactSection.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
     return (
         <section className="c-space my-20" id="about">
             <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+                        <img src="assets/Profile.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
                         <div>
                             <p className="grid-headtext">Hi, I’m Karan Chile</p>
@@ -70,9 +65,9 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
                             <p className="grid-subtext">I&apos;m based in Kolhapur, India and open to remote work worldwide.</p>
-                            <button onClick={scrollToContact} className="w-full mt-10">
+                            <Link to="/contact" className="w-full mt-10">
                                 <Button name="Contact Me" isBeam containerClass="w-full mt-10"/>
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

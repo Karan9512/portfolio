@@ -1,25 +1,26 @@
 const Footer = () => {
     return (
-        <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
-            <div className="text-white-500 flex gap-2">
-                <p>Terms & Conditions</p>
+        <footer className="c-space pt-5 pb-5 border-t border-neutral-800 flex flex-col sm:flex-row justify-between items-center gap-5">
+
+            <div className="text-gray-400 flex gap-2">
+                <a className="hover:text-white transition-colors">Terms & Conditions</a>
                 <p>|</p>
-                <p>Privacy Policy</p>
+                <a className="hover:text-white transition-colors">Privacy Policy</a>
             </div>
 
+            {/* Social Icons */}
             <div className="flex gap-3">
-                <div className="social-icon">
-                    <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-                </div>
-                <div className="social-icon">
-                    <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
-                </div>
-                <div className="social-icon">
-                    <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
-                </div>
+                <a href="https://github.com/Karan9512" target="_blank" rel="noopener noreferrer" aria-label="Github" className="social-icon hover:scale-110 transition-transform">
+                    <img src="/assets/github.svg" alt="GitHub" className="w-6 h-6" />
+                </a>
+                <a href="https://www.linkedin.com/in/Karan-Chile/" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="social-icon hover:scale-110 transition-transform">
+                    <img src="/assets/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
+                </a>
+
             </div>
 
-            <p className="text-white-500">© 2024 Karan Chile. All rights reserved.</p>
+            {/* Copyright Notice */}
+            <p className="text-gray-400">© 2024 Karan Chile. All rights reserved.</p>
         </footer>
     );
 };
