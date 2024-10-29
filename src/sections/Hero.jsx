@@ -12,7 +12,6 @@ import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
 import {Suspense} from "react";
 import {Link} from "react-router-dom";
-
 const Hero = () => {
 
     const isSmall =  useMediaQuery({ maxWidth: 440 });
@@ -32,7 +31,7 @@ const Hero = () => {
 
             <div className="w-full h-auto absolute inset-0">
 
-            <Canvas style={{ width: '100%', height: '100%' }}>
+            <Canvas style={{ width: '100%', height: '105%' }}>
                     <Suspense fallback={<CanvasLoader />}>
                         <PerspectiveCamera makeDefault position={isMobile ? [0, 0, 20] : [0, 0, 30]} />
                         <HeroCamera isMobile={isMobile}>
@@ -59,7 +58,6 @@ const Hero = () => {
                     <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full px-4 py-2 sm:min-w-96" />
                 </Link>
             </div>
-
         </section>
     );
 };

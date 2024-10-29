@@ -26,8 +26,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Hi, I’m Karan Chile</p>
                             <p className="grid-subtext">
-                                I have honed my skills in both frontend and backend development, creating dynamic
-                                and responsive websites.
+                                I’m Karan Kumar Chile, a front-end developer with over a year of freelancing experience in creating responsive, user-friendly web applications. I specialize in ReactJS and focus on building fast, engaging websites that adapt beautifully to any screen size. Passionate about clean code and intuitive design, I’m always exploring new tech to improve user experiences. Thanks for visiting!
                             </p>
                         </div>
                     </div>
@@ -41,7 +40,7 @@ const About = () => {
                             <p className="grid-headtext">Tech Stack</p>
                             <p className="grid-subtext">
                                 I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                                applications.
+                                applications.Skilled in ReactJS, JavaScript and Node.js. My focus is on clean, optimized code and responsive design with Tailwind CSS smooth interactivity.
                             </p>
                         </div>
                     </div>
@@ -79,8 +78,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">My Passion for Coding</p>
                             <p className="grid-subtext">
-                                I love solving problems and building things through code. Programming isn&apos;t just my
-                                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                                Coding is more than just work for me, it’s pure joy. I love solving problems and bringing ideas to life through code. Every project feels like a new puzzle, and I enjoy experimenting, building, and finding creative solutions. For me, coding is fun, and it gives me the freedom to create anything I can imagine.
                             </p>
                         </div>
                     </div>

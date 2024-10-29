@@ -7,7 +7,7 @@ const NavItems = () => {
             <li className="nav-li"><Link to="/">Home</Link></li>
             <li className="nav-li"><Link to="/about">About</Link></li>
             <li className="nav-li"><Link to="/projects">Projects</Link></li>
-            <li className="nav-li"><Link to="/clients">Clients</Link></li>
+            {/*<li className="nav-li"><Link to="/clients">Clients</Link></li>*/}
             <li className="nav-li"><Link to="/experience">Experience</Link></li>
             <li className="nav-li"><Link to="/contact">Contact</Link></li>
         </ul>
@@ -27,7 +27,7 @@ const Navbar = () => {
                         <img
                             src="/assets/Logo.png"
                             alt="Karan's Logo"
-                            className="max-h-12 w-auto"
+                            className="max-h-10 w-auto"
                         />
                     </a>
                     <button onClick={toggleMenu}
