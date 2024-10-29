@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Karan</h1>
 <h3 align="center">I have a deep passion for building web applications using React and Next.js. I love how these tools let me create dynamic, fast, and responsive websites. Every project feels like a chance to bring ideas to life with clean code and beautiful interfaces. The challenges in web development push me to learn continuously, and I find joy in solving problems and optimizing the user experience. Building with React and Next.js isn’t just work for me—it’s what I enjoy most.</h3>
 
-- 🛑LIVE 🎞️🎥   \n 👉 https://biobells.vercel.app/
+- 🛑LIVE 🎞️🎥   \n 👉 https://portfolio-karans-projects-8ea555a5.vercel.app//
 
 - 🔭 I’m currently working on [BioBell](https://github.com/Karan9512/biobells)
 
