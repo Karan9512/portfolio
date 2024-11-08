@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Globe from 'react-globe.gl';
 
 import Button from '../components/Button.jsx';
-import {Link} from "react-router-dom";
 
 const About = () => {
     const [hasCopied, setHasCopied] = useState(false);
@@ -64,9 +63,9 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
                             <p className="grid-subtext">I&apos;m based in Kolhapur, India and open to remote work worldwide.</p>
-                            <Link to="/contact" className="w-full mt-10">
+                            <a  href="#contact" className="w-full mt-10">
                                 <Button name="Contact Me" isBeam containerClass="w-full mt-10"/>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
